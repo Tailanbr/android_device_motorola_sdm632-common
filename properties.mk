@@ -48,6 +48,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     bluetooth.hfp.client=1 \
     ro.qualcomm.bt.hci_transport=smd
+    vendor.qcom.bluetooth.soc=pronto \
+    vendor.bluetooth.soc=pronto
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
