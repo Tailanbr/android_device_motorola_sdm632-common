@@ -303,6 +303,9 @@ vendor/firmware/cpp_firmware_v1_6_0.fw
 vendor/firmware/cpp_firmware_v1_8_0.fw
 
 # CNE
+etc/cne/Nexus/ATT/ATT_profiles.xml
+etc/cne/Nexus/ROW/ROW_profiles.xml
+etc/cne/Nexus/VZW/VZW_profiles.xml
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml
 product/framework/vendor.qti.data.factory-V1.0-java.jar
@@ -328,7 +331,11 @@ product/lib64/vendor.qti.data.factory@2.1.so
 product/lib64/vendor.qti.data.slm@1.0.so
 product/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 product/lib64/vendor.qti.hardware.slmadapter@1.0.so
+product/lib/vendor.qti.hardware.data.iwlan@1.0.so
+product/lib64/vendor.qti.hardware.data.iwlan@1.0.so
+-vendor/app/CACertService/CACertService.apk
 -vendor/app/CneApp/CneApp.apk
+-vendor/app/IWlanService/IWlanService.apk
 vendor/bin/cnd
 vendor/etc/cne/profileSlm.xml
 vendor/etc/cne/slm.conf
@@ -365,6 +372,7 @@ vendor/lib64/libcne.so
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libcneoplookup.so
 vendor/lib64/libcneqmiutils.so
+vendor/lib64/libjnihelper.so
 vendor/lib64/libwms.so
 vendor/lib64/libwqe.so
 vendor/lib64/libxml.so
