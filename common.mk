@@ -72,6 +72,9 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
     bootctrl.msm8953 \
     bootctrl.msm8953.recovery
+=======
+    $(LOCAL_PATH)/overlay-pa
+>>>>>>> 35099b36... sdm660-common: enable runtime navbar toggle
 
 # Audio
 PRODUCT_PACKAGES += \
